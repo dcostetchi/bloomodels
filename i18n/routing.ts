@@ -4,6 +4,10 @@ export const routing = defineRouting({
   locales: ["ro", "en"],
   defaultLocale: "ro",
   localePrefix: "as-needed",
+  // Locale is pinned per domain below — disable cookie/Accept-Language
+  // detection so a stale NEXT_LOCALE cookie can't fight the domain's fixed
+  // locale into a redirect loop.
+  localeDetection: false,
   domains: [
     {
       domain: "bloomodels.ro",
