@@ -9,10 +9,10 @@ export interface SiteConfig {
 // [PLACEHOLDER] override every value via env vars — see .env.example
 export const siteConfig: SiteConfig = {
   name: process.env.NEXT_PUBLIC_AGENCY_NAME ?? "Bloom Models",
-  email: process.env.NEXT_PUBLIC_AGENCY_EMAIL ?? "contact@bloommodels.com",
+  email: process.env.NEXT_PUBLIC_AGENCY_EMAIL ?? "contact@bloomodels.com",
   whatsappNumber: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "40700000000",
-  telegramHandle: process.env.NEXT_PUBLIC_TELEGRAM_HANDLE ?? "bloommodels",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://bloommodels.com",
+  telegramHandle: process.env.NEXT_PUBLIC_TELEGRAM_HANDLE ?? "bloomodels",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://bloomodels.com",
 };
 
 export function getWhatsappLink(prefilledMessage?: string): string {
