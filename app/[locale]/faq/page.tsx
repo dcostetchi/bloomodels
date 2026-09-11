@@ -45,8 +45,28 @@ export default async function FaqPage({
   const t = await getTranslations("faqPage");
   const categories = t.raw("categories") as readonly FaqCategory[];
 
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: categories.flatMap((category) =>
+      category.items.map((item) => ({
+        "@type": "Question",
+        name: item.q,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: item.a,
+        },
+      }))
+    ),
+  };
+
   return (
     <section className="bg-cream px-4 py-20 sm:px-6 sm:py-28">
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <div className="mx-auto max-w-3xl">
         <Reveal className="text-center">
           <h1 className="font-serif text-4xl italic text-charcoal sm:text-5xl">

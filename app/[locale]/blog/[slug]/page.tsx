@@ -5,7 +5,7 @@ import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/shared/reveal";
 import { getAllBlogPosts, getBlogPost, getBlogSlugs } from "@/lib/blog";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, localizedUrl } from "@/lib/seo";
 import { routing, type AppLocale } from "@/i18n/routing";
 
 interface BlogPostPageProps {
@@ -51,8 +51,22 @@ export default async function BlogPostPage({
   const allPosts = getAllBlogPosts();
   const otherPosts = allPosts.filter((p) => p.slug !== slug).slice(0, 2);
 
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title[currentLocale],
+    description: post.excerpt[currentLocale],
+    datePublished: post.date,
+    url: localizedUrl(currentLocale, `/blog/${slug}`),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       <article className="bg-cream px-4 py-20 sm:px-6 sm:py-28">
         <div className="mx-auto max-w-2xl">
           <Reveal>
