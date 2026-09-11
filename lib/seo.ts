@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { routing, type AppLocale } from "@/i18n/routing";
+import { routing, domainByLocale, type AppLocale } from "@/i18n/routing";
 import { siteConfig } from "@/lib/site-config";
 
+// Each locale is pinned to its own domain (bloomodels.ro / bloomodels.com) —
+// no path prefix, the domain itself is the locale signal.
 export function localizedUrl(locale: AppLocale, path: string): string {
-  const prefix = locale === routing.defaultLocale ? "" : `/${locale}`;
-  return `${siteConfig.url}${prefix}${path}`;
+  return `https://${domainByLocale[locale]}${path}`;
 }
 
 export function buildAlternates(

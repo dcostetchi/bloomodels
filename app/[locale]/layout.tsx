@@ -6,7 +6,7 @@ import { notFound } from "next/navigation";
 import { Toaster } from "@/components/ui/sonner";
 import { Navbar } from "@/components/shared/navbar";
 import { Footer } from "@/components/shared/footer";
-import { routing, type AppLocale } from "@/i18n/routing";
+import { routing, domainByLocale, type AppLocale } from "@/i18n/routing";
 import { siteConfig } from "@/lib/site-config";
 import { buildPageMetadata } from "@/lib/seo";
 import "../globals.css";
@@ -46,7 +46,7 @@ export async function generateMetadata({
       title: t("title"),
       description: t("description"),
     }),
-    metadataBase: new URL(siteConfig.url),
+    metadataBase: new URL(`https://${domainByLocale[locale as AppLocale]}`),
     title: {
       default: t("title"),
       template: `%s — ${siteConfig.name}`,
