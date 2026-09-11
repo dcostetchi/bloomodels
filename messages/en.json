@@ -1,0 +1,433 @@
+{
+  "seo": {
+    "home": {
+      "title": "Bloom Models — Boutique Creator Management Agency",
+      "description": "Full-service management for live content creators. Technical setup, audience growth and monetization — we handle everything so you can focus on creating."
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "description": "See exactly what we manage, what you do, and what you can realistically earn as a Bloom Models creator."
+    },
+    "faq": {
+      "title": "FAQ",
+      "description": "Answers on getting started, earnings, privacy, technical requirements and commitment for creators considering Bloom Models."
+    },
+    "apply": {
+      "title": "Apply",
+      "description": "Apply in 2 minutes. We'll reach out on WhatsApp within 24 hours to discuss joining Bloom Models."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Reach Bloom Models on WhatsApp, Telegram or email. We reply within 2-4 hours."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "How Bloom Models collects, uses and protects your personal data."
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Guides on remote work, online income and building a creator career."
+    }
+  },
+  "nav": {
+    "howItWorks": "How It Works",
+    "faq": "FAQ",
+    "apply": "Apply",
+    "applyNow": "Apply Now",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "footer": {
+    "tagline": "We Grow Creators. You Focus on Content.",
+    "linksTitle": "Pages",
+    "legalTitle": "Legal",
+    "privacy": "Privacy Policy",
+    "social": "Follow",
+    "copyright": "© 2025 {brand}. All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Boutique Creator Management",
+      "h1": "We Manage Your Growth. You Focus on Creating.",
+      "sub": "Full-service creator management agency. Technical setup, audience growth, monetization strategy. We handle everything.",
+      "ctaPrimary": "Apply to Join",
+      "ctaSecondary": "How It Works"
+    },
+    "whatWeDo": {
+      "eyebrow": "Our Services",
+      "title": "What We Do",
+      "items": [
+        {
+          "title": "Technical Management",
+          "desc": "Full setup, platform optimization, stream quality, tools and software — all handled by us."
+        },
+        {
+          "title": "Audience Growth",
+          "desc": "We manage viewer engagement, retention strategies and monetization on your behalf."
+        },
+        {
+          "title": "Revenue Maximization",
+          "desc": "You focus on performing. We focus on turning your audience into consistent income."
+        }
+      ]
+    },
+    "studioShowcase": {
+      "eyebrow": "The Space",
+      "title": "Real Studios. Real Discretion.",
+      "text": "Every managed creator works from a space built for comfort and privacy — whether that's our studio or a setup we build for you at home."
+    },
+    "numbers": {
+      "items": [
+        {
+          "display": "$2,000–$5,000",
+          "suffix": "/month",
+          "label": "average managed creator"
+        },
+        {
+          "suffix": "%",
+          "label": "remote — work from anywhere"
+        },
+        {
+          "suffix": " days",
+          "label": "from application to first session"
+        },
+        {
+          "display": "24/7",
+          "label": "support during live sessions"
+        }
+      ]
+    },
+    "benefits": {
+      "eyebrow": "The Difference",
+      "title": "Creator Benefits",
+      "items": [
+        "Work from home — no commute, no boss",
+        "Flexible schedule — you choose your hours",
+        "Zero technical knowledge required",
+        "Earnings in dollars, not RON",
+        "Your identity fully protected",
+        "Start within your first week"
+      ]
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "steps": [
+        { "title": "Apply", "desc": "Fill our 2-minute form." },
+        { "title": "Interview", "desc": "15-minute call, we explain everything." },
+        { "title": "Setup", "desc": "We build your entire presence from scratch." },
+        { "title": "Earn", "desc": "First session within 7 days of joining." }
+      ],
+      "cta": "See the full breakdown"
+    },
+    "testimonials": {
+      "title": "What Our Creators Say",
+      "disclaimer": "Results vary. These are real experiences from managed creators.",
+      "items": [
+        {
+          "name": "Ana, 24",
+          "quote": "I had no idea where to start with content creation. The team handled everything. I just showed up."
+        },
+        {
+          "name": "Maria, 27",
+          "quote": "From zero to consistent $2,800/month in my second month. The support is real."
+        },
+        {
+          "name": "Ioana, 23",
+          "quote": "I tried doing this alone for 3 months and made nothing. With {brand} I hit $1,200 in my first month."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Ready to turn your time into dollars?",
+      "button": "Apply Now — Free, No Commitment"
+    }
+  },
+  "howItWorksPage": {
+    "hero": {
+      "title": "How It Works",
+      "sub": "A transparent breakdown of what we handle, what you handle, and what you can realistically expect to earn."
+    },
+    "spaceBand": {
+      "eyebrow": "Where You'll Work",
+      "title": "Built For Focus, Not Distraction"
+    },
+    "weManage": {
+      "title": "What We Manage",
+      "items": [
+        "Technical setup and platform optimization",
+        "Live chat moderation and audience engagement",
+        "Stream and content optimization",
+        "Audience growth and retention strategy"
+      ]
+    },
+    "youDo": {
+      "title": "What You Do",
+      "items": [
+        "Appear live and stay consistent",
+        "Follow the guidance we give you",
+        "Show up for your scheduled hours",
+        "Communicate any boundaries upfront"
+      ]
+    },
+    "earningsModel": {
+      "title": "Earnings Model",
+      "explanation": "You earn 40-50% of all revenue generated. We earn the rest in exchange for full management.",
+      "note": "The exact split is confirmed during your interview and written into your collaboration agreement."
+    },
+    "timeline": {
+      "title": "Realistic Timeline",
+      "items": [
+        { "period": "Month 1", "range": "$500–$1,500", "phase": "Learning phase" },
+        { "period": "Month 2", "range": "$1,500–$3,000", "phase": "Growth phase" },
+        { "period": "Month 3+", "range": "$2,000–$5,000", "phase": "Stable" }
+      ]
+    },
+    "whatYouNeed": {
+      "title": "What You Need",
+      "text": "A laptop and stable internet. We help with the rest."
+    },
+    "table": {
+      "title": "We Handle vs. You Handle",
+      "weHandleTitle": "We Handle",
+      "youHandleTitle": "You Handle",
+      "weHandle": [
+        "Technical setup and tools",
+        "Platform strategy and optimization",
+        "Audience growth and retention",
+        "Monetization and payout logistics",
+        "Chat moderation",
+        "Identity protection measures"
+      ],
+      "youHandle": [
+        "Showing up live, consistently",
+        "Following the guidance we give you",
+        "Basic English communication",
+        "A laptop and stable internet",
+        "Staying within agreed boundaries",
+        "Your scheduled hours"
+      ]
+    },
+    "ctaFinal": {
+      "title": "Ready to see if you're a fit?",
+      "button": "Apply Now"
+    }
+  },
+  "faqPage": {
+    "title": "Frequently Asked Questions",
+    "sub": "Everything you need to know before applying.",
+    "categories": [
+      {
+        "title": "Getting Started",
+        "items": [
+          {
+            "q": "Do I need experience?",
+            "a": "No. Full training provided."
+          },
+          {
+            "q": "How long until I start earning?",
+            "a": "Most creators earn in week 1."
+          },
+          {
+            "q": "Can I work from any city?",
+            "a": "Yes, fully remote."
+          },
+          {
+            "q": "Is there a contract?",
+            "a": "Yes, a collaboration agreement. 14-day exit notice."
+          }
+        ]
+      },
+      {
+        "title": "Earnings",
+        "items": [
+          {
+            "q": "How much can I realistically make?",
+            "a": "$500–$1,500 month 1, $2,000–$5,000 by month 3."
+          },
+          {
+            "q": "How do I get paid?",
+            "a": "Bi-weekly, USD, bank transfer or e-wallet."
+          },
+          {
+            "q": "Is there a guaranteed minimum?",
+            "a": "Yes — $600/month guaranteed if you complete your scheduled hours."
+          },
+          {
+            "q": "When is my first payment?",
+            "a": "After your first completed week."
+          }
+        ]
+      },
+      {
+        "title": "Privacy",
+        "items": [
+          {
+            "q": "Will people I know see me?",
+            "a": "We implement geographic restrictions so your local community cannot access your content."
+          },
+          {
+            "q": "Is my real identity used anywhere?",
+            "a": "No. You work under a creator persona we build together."
+          },
+          {
+            "q": "Can I choose what I'm comfortable with?",
+            "a": "Yes. We discuss all boundaries before you start. Nothing forced."
+          }
+        ]
+      },
+      {
+        "title": "Technical",
+        "items": [
+          {
+            "q": "What equipment do I need?",
+            "a": "Laptop (Windows or Mac) + 20 Mbps+ upload internet."
+          },
+          {
+            "q": "What if I don't have a laptop?",
+            "a": "We discuss equipment options during the interview."
+          },
+          {
+            "q": "Do I need to speak English?",
+            "a": "Basic English is enough. We handle most communication."
+          }
+        ]
+      },
+      {
+        "title": "Commitment",
+        "items": [
+          {
+            "q": "Can I stop when I want?",
+            "a": "Yes, 14-day notice."
+          },
+          {
+            "q": "How many hours per week minimum?",
+            "a": "We recommend 25-30h/week for meaningful earnings."
+          },
+          {
+            "q": "Can I work part-time?",
+            "a": "Yes, but earnings will be proportionally lower."
+          }
+        ]
+      }
+    ]
+  },
+  "apply": {
+    "title": "Apply to Join",
+    "sub": "Takes about 2 minutes. We'll reach out on WhatsApp within 24 hours.",
+    "stepLabel": "Step {current} of {total}",
+    "steps": {
+      "one": {
+        "title": "About You",
+        "firstName": "First Name",
+        "firstNamePlaceholder": "Your first name",
+        "age": "Age",
+        "agePlaceholder": "Select your age range",
+        "city": "City",
+        "cityPlaceholder": "Your city",
+        "whatsapp": "WhatsApp number",
+        "whatsappPlaceholder": "+40 7XX XXX XXX"
+      },
+      "two": {
+        "title": "Your Setup",
+        "device": "Laptop/PC available?",
+        "deviceOptions": {
+          "laptop": "Yes, laptop",
+          "desktop": "Yes, desktop",
+          "phone": "Phone only",
+          "none": "No"
+        },
+        "internetSpeed": "Internet speed?",
+        "internetSpeedOptions": {
+          "fiber": "Fast fiber",
+          "regular": "Regular",
+          "mobile": "Mobile data"
+        },
+        "hoursPerDay": "Hours available per day?",
+        "weekends": "Weekends available?",
+        "weekendOptions": {
+          "both": "Yes, both days",
+          "saturday": "Saturday only",
+          "sunday": "Sunday only",
+          "no": "No"
+        }
+      },
+      "three": {
+        "title": "Last Step",
+        "source": "How did you find us?",
+        "sourceOptions": {
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "friend": "Friend",
+          "other": "Other"
+        },
+        "questions": "Questions for us?",
+        "questionsPlaceholder": "Optional",
+        "consent": "I confirm I am 18+ and agree to be contacted about this opportunity.",
+        "submit": "Send My Application →"
+      }
+    },
+    "back": "Back",
+    "next": "Next",
+    "submitting": "Sending…",
+    "errorGeneric": "Something went wrong. Please try again or contact us on WhatsApp.",
+    "errorRateLimit": "Too many attempts. Please try again in a few minutes.",
+    "success": {
+      "title": "Application received!",
+      "text": "We'll contact you on WhatsApp within 24 hours. 🎉"
+    }
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "sub": "We reply within 2-4 hours.",
+    "whatsapp": "Chat on WhatsApp",
+    "telegram": "Telegram",
+    "email": "Email",
+    "formTitle": "Or send us a message",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "contact": "Email or WhatsApp",
+    "contactPlaceholder": "How can we reach you?",
+    "message": "Message",
+    "messagePlaceholder": "How can we help?",
+    "submit": "Send Message",
+    "submitting": "Sending…",
+    "success": "Message sent! We'll get back to you within 2-4 hours.",
+    "errorGeneric": "Something went wrong. Please try again or reach us on WhatsApp.",
+    "errorRateLimit": "Too many attempts. Please try again in a few minutes."
+  },
+  "blogPage": {
+    "title": "The Journal",
+    "sub": "Guides on remote work, online income and building a creator career.",
+    "readMore": "Read More",
+    "backToBlog": "Back to Journal",
+    "ctaTitle": "Ready to put this into practice?",
+    "ctaButton": "Apply to Join"
+  },
+  "privacyPage": {
+    "title": "Privacy Policy",
+    "updated": "Last updated: {date}",
+    "intro": "This policy explains how {brand} collects, uses and protects your personal data in accordance with the EU General Data Protection Regulation (GDPR).",
+    "sections": [
+      {
+        "title": "Data We Collect",
+        "text": "When you apply or contact us, we collect your first name, age range, city, WhatsApp number, and any details you share about your setup and availability."
+      },
+      {
+        "title": "Purpose",
+        "text": "This data is used solely for initial contact and evaluating your application. We do not use it for any other purpose."
+      },
+      {
+        "title": "No Selling of Data",
+        "text": "We never sell, rent, or trade your personal data to third parties."
+      },
+      {
+        "title": "Data Retention",
+        "text": "We retain application data only as long as necessary to evaluate and follow up on your application."
+      },
+      {
+        "title": "Your Rights",
+        "text": "You have the right to access, correct, or request deletion of your data at any time. To exercise this right, contact us at contact@[domain]."
+      }
+    ]
+  }
+}

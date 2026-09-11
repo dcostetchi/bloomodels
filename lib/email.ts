@@ -1,0 +1,61 @@
+import { Resend } from "resend";
+import type { StoredApplication } from "@/lib/applications";
+import type { ContactFormValues } from "@/lib/validations";
+
+function getResendClient(): Resend | null {
+  const apiKey = process.env.RESEND_API_KEY;
+  return apiKey ? new Resend(apiKey) : null;
+}
+
+function getRecipient(): string | null {
+  return process.env.EMAIL_TO ?? null;
+}
+
+export async function sendApplicationEmail(
+  application: StoredApplication
+): Promise<void> {
+  const resend = getResendClient();
+  const to = getRecipient();
+
+  // Env vars unset in local/dev — skip silently rather than failing the submission.
+  if (!resend || !to) {
+    return;
+  }
+
+  await resend.emails.send({
+    from: "Applications <onboarding@resend.dev>", // [PLACEHOLDER] verify a sending domain in Resend
+    to,
+    subject: `New application: ${application.firstName} (${application.city})`,
+    text: [
+      `First name: ${application.firstName}`,
+      `Age range: ${application.age}`,
+      `City: ${application.city}`,
+      `WhatsApp: ${application.whatsapp}`,
+      `Device: ${application.device}`,
+      `Internet: ${application.internetSpeed}`,
+      `Hours/day: ${application.hoursPerDay}`,
+      `Weekends: ${application.weekends}`,
+      `Source: ${application.source}`,
+      `Questions: ${application.questions ?? "-"}`,
+      `Submitted: ${application.submittedAt}`,
+    ].join("\n"),
+  });
+}
+
+export async function sendContactEmail(
+  values: ContactFormValues
+): Promise<void> {
+  const resend = getResendClient();
+  const to = getRecipient();
+
+  if (!resend || !to) {
+    return;
+  }
+
+  await resend.emails.send({
+    from: "Contact form <onboarding@resend.dev>", // [PLACEHOLDER] verify a sending domain in Resend
+    to,
+    subject: `New contact message from ${values.name}`,
+    text: `Name: ${values.name}\nContact: ${values.contact}\n\n${values.message}`,
+  });
+}

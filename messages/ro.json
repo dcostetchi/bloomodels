@@ -1,0 +1,433 @@
+{
+  "seo": {
+    "home": {
+      "title": "Bloom Models — Agentie Boutique de Management pentru Creatori",
+      "description": "Management full-service pentru creatori de continut live. Setup tehnic, cresterea audientei si monetizare — ne ocupam de tot ca tu sa te concentrezi pe creat."
+    },
+    "howItWorks": {
+      "title": "Cum Functioneaza",
+      "description": "Vezi exact ce gestionam noi, ce faci tu si la ce venituri te poti astepta realist ca creator Bloom Models."
+    },
+    "faq": {
+      "title": "Intrebari Frecvente",
+      "description": "Raspunsuri despre primii pasi, castiguri, confidentialitate, cerinte tehnice si angajament pentru cele care considera Bloom Models."
+    },
+    "apply": {
+      "title": "Aplica",
+      "description": "Aplici in 2 minute. Te contactam pe WhatsApp in maximum 24 de ore ca sa discutam despre inscrierea la Bloom Models."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Contacteaza Bloom Models pe WhatsApp, Telegram sau email. Raspundem in 2-4 ore."
+    },
+    "privacy": {
+      "title": "Politica de Confidentialitate",
+      "description": "Cum colecteaza, utilizeaza si protejeaza Bloom Models datele tale personale."
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Ghiduri despre munca remote, venituri online si construirea unei cariere de creator."
+    }
+  },
+  "nav": {
+    "howItWorks": "Cum Functioneaza",
+    "faq": "Intrebari Frecvente",
+    "apply": "Aplica",
+    "applyNow": "Aplica Acum",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "footer": {
+    "tagline": "Facem Creatorii Sa Creasca. Tu Te Concentrezi Pe Continut.",
+    "linksTitle": "Pagini",
+    "legalTitle": "Legal",
+    "privacy": "Politica de Confidentialitate",
+    "social": "Urmareste-ne",
+    "copyright": "© 2025 {brand}. Toate drepturile rezervate."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Management Boutique Pentru Creatori",
+      "h1": "Iti Administram Cresterea. Tu Te Concentrezi Pe Creat Continut.",
+      "sub": "Agentie full-service de management pentru creatori. Setup tehnic, cresterea audientei, strategie de monetizare. Ne ocupam de tot.",
+      "ctaPrimary": "Aplica Acum",
+      "ctaSecondary": "Cum Functioneaza"
+    },
+    "whatWeDo": {
+      "eyebrow": "Serviciile Noastre",
+      "title": "Ce Facem",
+      "items": [
+        {
+          "title": "Management Tehnic",
+          "desc": "Setup complet, optimizarea platformei, calitatea stream-ului, unelte si software — toate gestionate de noi."
+        },
+        {
+          "title": "Cresterea Audientei",
+          "desc": "Gestionam engagement-ul viewerilor, strategii de retentie si monetizare in locul tau."
+        },
+        {
+          "title": "Maximizarea Veniturilor",
+          "desc": "Tu te concentrezi pe performanta. Noi ne concentram pe transformarea audientei tale in venit constant."
+        }
+      ]
+    },
+    "studioShowcase": {
+      "eyebrow": "Spatiul",
+      "title": "Studiouri Reale. Discretie Reala.",
+      "text": "Fiecare creator administrat lucreaza dintr-un spatiu conceput pentru confort si intimitate — fie in studioul nostru, fie intr-un setup construit acasa la tine."
+    },
+    "numbers": {
+      "items": [
+        {
+          "display": "$2,000–$5,000",
+          "suffix": "/luna",
+          "label": "creator mediu administrat"
+        },
+        {
+          "suffix": "%",
+          "label": "remote — lucrezi de oriunde"
+        },
+        {
+          "suffix": " zile",
+          "label": "de la aplicare la prima sesiune"
+        },
+        {
+          "display": "24/7",
+          "label": "suport in timpul sesiunilor live"
+        }
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Diferenta",
+      "title": "Beneficii Pentru Creatori",
+      "items": [
+        "Lucrezi de acasa — fara naveta, fara sef",
+        "Program flexibil — tu iti alegi orele",
+        "Zero cunostinte tehnice necesare",
+        "Castiguri in dolari, nu in RON",
+        "Identitatea ta este complet protejata",
+        "Incepi in prima ta saptamana"
+      ]
+    },
+    "howItWorks": {
+      "title": "Cum Functioneaza",
+      "steps": [
+        { "title": "Aplica", "desc": "Completezi formularul nostru de 2 minute." },
+        { "title": "Interviu", "desc": "Apel de 15 minute, iti explicam tot." },
+        { "title": "Setup", "desc": "Iti construim intreaga prezenta de la zero." },
+        { "title": "Castigi", "desc": "Prima sesiune in maximum 7 zile de la inscriere." }
+      ],
+      "cta": "Vezi detaliile complete"
+    },
+    "testimonials": {
+      "title": "Ce Spun Creatorii Nostri",
+      "disclaimer": "Rezultatele variaza. Acestea sunt experiente reale ale creatorilor administrati.",
+      "items": [
+        {
+          "name": "Ana, 24",
+          "quote": "Nu aveam nicio idee de unde sa incep cu content creation. Echipa s-a ocupat de tot. Eu doar m-am prezentat."
+        },
+        {
+          "name": "Maria, 27",
+          "quote": "De la zero la constant $2,800/luna in a doua mea luna. Suportul este real."
+        },
+        {
+          "name": "Ioana, 23",
+          "quote": "Am incercat singura timp de 3 luni si nu am facut nimic. Cu {brand} am ajuns la $1,200 in prima mea luna."
+        }
+      ]
+    },
+    "ctaFinal": {
+      "title": "Esti pregatita sa transformi timpul tau in dolari?",
+      "button": "Aplica Acum — Gratuit, Fara Obligatii"
+    }
+  },
+  "howItWorksPage": {
+    "hero": {
+      "title": "Cum Functioneaza",
+      "sub": "O prezentare transparenta a ceea ce gestionam noi, ce gestionezi tu si la ce venituri te poti astepta realist."
+    },
+    "spaceBand": {
+      "eyebrow": "Unde Vei Lucra",
+      "title": "Construit Pentru Concentrare, Nu Distragere"
+    },
+    "weManage": {
+      "title": "Ce Gestionam Noi",
+      "items": [
+        "Setup tehnic si optimizarea platformei",
+        "Moderarea chatului live si engagement cu audienta",
+        "Optimizarea stream-ului si a continutului",
+        "Strategie de crestere si retentie a audientei"
+      ]
+    },
+    "youDo": {
+      "title": "Ce Faci Tu",
+      "items": [
+        "Esti prezenta live si ramai constanta",
+        "Urmezi indrumarile pe care ti le dam",
+        "Te prezinti la orele programate",
+        "Comunici din timp orice limita personala"
+      ]
+    },
+    "earningsModel": {
+      "title": "Modelul de Venituri",
+      "explanation": "Castigi 40-50% din toate veniturile generate. Noi castigam restul in schimbul managementului complet.",
+      "note": "Procentul exact se confirma in timpul interviului si se scrie in acordul tau de colaborare."
+    },
+    "timeline": {
+      "title": "Cronologie Realista",
+      "items": [
+        { "period": "Luna 1", "range": "$500–$1,500", "phase": "Faza de invatare" },
+        { "period": "Luna 2", "range": "$1,500–$3,000", "phase": "Faza de crestere" },
+        { "period": "Luna 3+", "range": "$2,000–$5,000", "phase": "Stabil" }
+      ]
+    },
+    "whatYouNeed": {
+      "title": "De Ce Ai Nevoie",
+      "text": "Un laptop si internet stabil. Noi te ajutam cu restul."
+    },
+    "table": {
+      "title": "Ce Gestionam Noi vs. Ce Gestionezi Tu",
+      "weHandleTitle": "Noi Gestionam",
+      "youHandleTitle": "Tu Gestionezi",
+      "weHandle": [
+        "Setup tehnic si unelte",
+        "Strategie si optimizare de platforma",
+        "Cresterea si retentia audientei",
+        "Monetizare si logistica platilor",
+        "Moderarea chatului",
+        "Masuri de protejare a identitatii"
+      ],
+      "youHandle": [
+        "Sa fii prezenta live, constanta",
+        "Sa urmezi indrumarile pe care ti le dam",
+        "Comunicare de baza in engleza",
+        "Un laptop si internet stabil",
+        "Sa respecti limitele stabilite",
+        "Orele tale programate"
+      ]
+    },
+    "ctaFinal": {
+      "title": "Esti pregatita sa vezi daca esti potrivita?",
+      "button": "Aplica Acum"
+    }
+  },
+  "faqPage": {
+    "title": "Intrebari Frecvente",
+    "sub": "Tot ce trebuie sa stii inainte sa aplici.",
+    "categories": [
+      {
+        "title": "Primii Pasi",
+        "items": [
+          {
+            "q": "Am nevoie de experienta?",
+            "a": "Nu. Oferim training complet."
+          },
+          {
+            "q": "Cat timp pana incep sa castig?",
+            "a": "Majoritatea creatorilor castiga din prima saptamana."
+          },
+          {
+            "q": "Pot lucra din orice oras?",
+            "a": "Da, 100% remote."
+          },
+          {
+            "q": "Exista un contract?",
+            "a": "Da, un acord de colaborare. Preaviz de 14 zile pentru incheiere."
+          }
+        ]
+      },
+      {
+        "title": "Castiguri",
+        "items": [
+          {
+            "q": "Cat pot castiga realist?",
+            "a": "$500–$1,500 in prima luna, $2,000–$5,000 pana in luna 3."
+          },
+          {
+            "q": "Cum sunt platita?",
+            "a": "La doua saptamani, in dolari, transfer bancar sau portofel electronic."
+          },
+          {
+            "q": "Exista un minim garantat?",
+            "a": "Da — $600/luna garantat daca iti completezi orele programate."
+          },
+          {
+            "q": "Cand primesc prima plata?",
+            "a": "Dupa prima saptamana completata."
+          }
+        ]
+      },
+      {
+        "title": "Confidentialitate",
+        "items": [
+          {
+            "q": "Ma vor vedea oameni pe care ii cunosc?",
+            "a": "Implementam restrictii geografice astfel incat comunitatea ta locala sa nu poata accesa continutul tau."
+          },
+          {
+            "q": "Este folosita identitatea mea reala undeva?",
+            "a": "Nu. Lucrezi sub o persona de creator pe care o construim impreuna."
+          },
+          {
+            "q": "Pot alege cu ce sunt confortabila?",
+            "a": "Da. Discutam toate limitele inainte sa incepi. Nimic nu este fortat."
+          }
+        ]
+      },
+      {
+        "title": "Tehnic",
+        "items": [
+          {
+            "q": "De ce echipament am nevoie?",
+            "a": "Laptop (Windows sau Mac) + internet cu upload de 20 Mbps+."
+          },
+          {
+            "q": "Ce se intampla daca nu am laptop?",
+            "a": "Discutam optiuni de echipament in timpul interviului."
+          },
+          {
+            "q": "Trebuie sa vorbesc engleza?",
+            "a": "Engleza de baza este suficienta. Ne ocupam noi de cea mai mare parte a comunicarii."
+          }
+        ]
+      },
+      {
+        "title": "Angajament",
+        "items": [
+          {
+            "q": "Pot sa ma opresc cand vreau?",
+            "a": "Da, cu preaviz de 14 zile."
+          },
+          {
+            "q": "Cate ore minim pe saptamana?",
+            "a": "Recomandam 25-30h/saptamana pentru castiguri semnificative."
+          },
+          {
+            "q": "Pot lucra part-time?",
+            "a": "Da, dar castigurile vor fi proportional mai mici."
+          }
+        ]
+      }
+    ]
+  },
+  "apply": {
+    "title": "Aplica Acum",
+    "sub": "Dureaza aproximativ 2 minute. Te contactam pe WhatsApp in maximum 24 de ore.",
+    "stepLabel": "Pasul {current} din {total}",
+    "steps": {
+      "one": {
+        "title": "Despre Tine",
+        "firstName": "Prenume",
+        "firstNamePlaceholder": "Prenumele tau",
+        "age": "Varsta",
+        "agePlaceholder": "Selecteaza intervalul de varsta",
+        "city": "Oras",
+        "cityPlaceholder": "Orasul tau",
+        "whatsapp": "Numar WhatsApp",
+        "whatsappPlaceholder": "+40 7XX XXX XXX"
+      },
+      "two": {
+        "title": "Setup-ul Tau",
+        "device": "Ai laptop/PC disponibil?",
+        "deviceOptions": {
+          "laptop": "Da, laptop",
+          "desktop": "Da, desktop",
+          "phone": "Doar telefon",
+          "none": "Nu"
+        },
+        "internetSpeed": "Viteza internetului?",
+        "internetSpeedOptions": {
+          "fiber": "Fibra rapida",
+          "regular": "Obisnuita",
+          "mobile": "Date mobile"
+        },
+        "hoursPerDay": "Ore disponibile pe zi?",
+        "weekends": "Disponibila in weekend?",
+        "weekendOptions": {
+          "both": "Da, ambele zile",
+          "saturday": "Doar sambata",
+          "sunday": "Doar duminica",
+          "no": "Nu"
+        }
+      },
+      "three": {
+        "title": "Ultimul Pas",
+        "source": "Cum ne-ai gasit?",
+        "sourceOptions": {
+          "instagram": "Instagram",
+          "tiktok": "TikTok",
+          "friend": "Prieten",
+          "other": "Altceva"
+        },
+        "questions": "Ai intrebari pentru noi?",
+        "questionsPlaceholder": "Optional",
+        "consent": "Confirm ca am 18+ ani si sunt de acord sa fiu contactata despre aceasta oportunitate.",
+        "submit": "Trimite Aplicatia →"
+      }
+    },
+    "back": "Inapoi",
+    "next": "Continua",
+    "submitting": "Se trimite…",
+    "errorGeneric": "Ceva nu a functionat. Te rugam sa incerci din nou sau sa ne contactezi pe WhatsApp.",
+    "errorRateLimit": "Prea multe incercari. Te rugam sa incerci din nou in cateva minute.",
+    "success": {
+      "title": "Aplicatie primita!",
+      "text": "Te contactam pe WhatsApp in maximum 24 de ore. 🎉"
+    }
+  },
+  "contactPage": {
+    "title": "Contacteaza-ne",
+    "sub": "Raspundem in 2-4 ore.",
+    "whatsapp": "Discuta pe WhatsApp",
+    "telegram": "Telegram",
+    "email": "Email",
+    "formTitle": "Sau trimite-ne un mesaj",
+    "name": "Nume",
+    "namePlaceholder": "Numele tau",
+    "contact": "Email sau WhatsApp",
+    "contactPlaceholder": "Cum te putem contacta?",
+    "message": "Mesaj",
+    "messagePlaceholder": "Cu ce te putem ajuta?",
+    "submit": "Trimite Mesajul",
+    "submitting": "Se trimite…",
+    "success": "Mesaj trimis! Iti raspundem in 2-4 ore.",
+    "errorGeneric": "Ceva nu a functionat. Te rugam sa incerci din nou sau sa ne contactezi pe WhatsApp.",
+    "errorRateLimit": "Prea multe incercari. Te rugam sa incerci din nou in cateva minute."
+  },
+  "blogPage": {
+    "title": "Jurnalul",
+    "sub": "Ghiduri despre munca remote, venituri online si construirea unei cariere de creator.",
+    "readMore": "Citeste Mai Mult",
+    "backToBlog": "Inapoi la Jurnal",
+    "ctaTitle": "Esti pregatita sa pui asta in practica?",
+    "ctaButton": "Aplica Acum"
+  },
+  "privacyPage": {
+    "title": "Politica de Confidentialitate",
+    "updated": "Ultima actualizare: {date}",
+    "intro": "Aceasta politica explica modul in care {brand} colecteaza, utilizeaza si protejeaza datele tale personale, in conformitate cu Regulamentul General privind Protectia Datelor al UE (GDPR).",
+    "sections": [
+      {
+        "title": "Ce Date Colectam",
+        "text": "Cand aplici sau ne contactezi, colectam prenumele tau, intervalul de varsta, orasul, numarul de WhatsApp si orice detalii pe care le impartasesti despre setup-ul si disponibilitatea ta."
+      },
+      {
+        "title": "Scop",
+        "text": "Aceste date sunt folosite exclusiv pentru contactul initial si evaluarea aplicatiei tale. Nu le folosim in niciun alt scop."
+      },
+      {
+        "title": "Nu Vindem Date",
+        "text": "Nu vindem, nu inchiriem si nu tranzactionam niciodata datele tale personale catre terti."
+      },
+      {
+        "title": "Retentia Datelor",
+        "text": "Pastram datele aplicatiei doar atat timp cat este necesar pentru a evalua si a da curs aplicatiei tale."
+      },
+      {
+        "title": "Drepturile Tale",
+        "text": "Ai dreptul de a accesa, corecta sau solicita stergerea datelor tale in orice moment. Pentru a exercita acest drept, contacteaza-ne la contact@[domain]."
+      }
+    ]
+  }
+}
