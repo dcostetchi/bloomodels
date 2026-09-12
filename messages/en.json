@@ -79,7 +79,7 @@
     "numbers": {
       "items": [
         {
-          "display": "$2,000–$5,000",
+          "display": "$6,000+",
           "suffix": "/month",
           "label": "average managed creator"
         },
@@ -177,9 +177,9 @@
     "timeline": {
       "title": "Realistic Timeline",
       "items": [
-        { "period": "Month 1", "range": "$500–$1,500", "phase": "Learning phase" },
-        { "period": "Month 2", "range": "$1,500–$3,000", "phase": "Growth phase" },
-        { "period": "Month 3+", "range": "$2,000–$5,000", "phase": "Stable" }
+        { "period": "Month 1", "range": "$3,000+", "phase": "Learning phase" },
+        { "period": "Month 2", "range": "$4,500+", "phase": "Growth phase" },
+        { "period": "Month 3+", "range": "$6,000+", "phase": "Stable" }
       ]
     },
     "whatYouNeed": {
@@ -242,7 +242,7 @@
         "items": [
           {
             "q": "How much can I realistically make?",
-            "a": "$500–$1,500 month 1, $2,000–$5,000 by month 3."
+            "a": "$3,000+ in month 1, $6,000+ by month 3."
           },
           {
             "q": "How do I get paid?",

@@ -79,7 +79,7 @@
     "numbers": {
       "items": [
         {
-          "display": "$2,000–$5,000",
+          "display": "$6,000+",
           "suffix": "/luna",
           "label": "creator mediu administrat"
         },
@@ -177,9 +177,9 @@
     "timeline": {
       "title": "Cronologie Realista",
       "items": [
-        { "period": "Luna 1", "range": "$500–$1,500", "phase": "Faza de invatare" },
-        { "period": "Luna 2", "range": "$1,500–$3,000", "phase": "Faza de crestere" },
-        { "period": "Luna 3+", "range": "$2,000–$5,000", "phase": "Stabil" }
+        { "period": "Luna 1", "range": "$3,000+", "phase": "Faza de invatare" },
+        { "period": "Luna 2", "range": "$4,500+", "phase": "Faza de crestere" },
+        { "period": "Luna 3+", "range": "$6,000+", "phase": "Stabil" }
       ]
     },
     "whatYouNeed": {
@@ -242,7 +242,7 @@
         "items": [
           {
             "q": "Cat pot castiga realist?",
-            "a": "$500–$1,500 in prima luna, $2,000–$5,000 pana in luna 3."
+            "a": "$3,000+ in prima luna, $6,000+ pana in luna 3."
           },
           {
             "q": "Cum sunt platita?",
