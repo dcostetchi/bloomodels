@@ -22,7 +22,7 @@ export async function sendApplicationEmail(
     return false;
   }
 
-  await resend.emails.send({
+  const { error } = await resend.emails.send({
     from: "Applications <onboarding@resend.dev>", // [PLACEHOLDER] verify a sending domain in Resend
     to,
     subject: `New application: ${application.firstName} (${application.city})`,
@@ -41,6 +41,11 @@ export async function sendApplicationEmail(
     ].join("\n"),
   });
 
+  if (error) {
+    console.error("Resend failed to send application email:", error);
+    return false;
+  }
+
   return true;
 }
 
@@ -54,12 +59,17 @@ export async function sendContactEmail(
     return false;
   }
 
-  await resend.emails.send({
+  const { error } = await resend.emails.send({
     from: "Contact form <onboarding@resend.dev>", // [PLACEHOLDER] verify a sending domain in Resend
     to,
     subject: `New contact message from ${values.name}`,
     text: `Name: ${values.name}\nContact: ${values.contact}\n\n${values.message}`,
   });
+
+  if (error) {
+    console.error("Resend failed to send contact email:", error);
+    return false;
+  }
 
   return true;
 }
