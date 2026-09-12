@@ -30,10 +30,26 @@ export async function POST(request: Request): Promise<NextResponse> {
   }
 
   try {
-    const application = await saveApplication(parsed.data);
-    await sendApplicationEmail(application);
+    const { application, persistedToDisk } = await saveApplication(parsed.data);
+    const emailed = await sendApplicationEmail(application);
+
+    // Disk write is best-effort (fails on Vercel's read-only filesystem) and
+    // email is opt-in via RESEND_API_KEY — only fail the request if neither
+    // succeeded, since that means the application was recorded nowhere.
+    if (!persistedToDisk && !emailed) {
+      console.error(
+        "Application lost: no disk write and no email configured.",
+        application.id
+      );
+      return NextResponse.json(
+        { error: "Could not save application. Please try again." },
+        { status: 500 }
+      );
+    }
+
     return NextResponse.json({ ok: true }, { status: 201 });
-  } catch {
+  } catch (error) {
+    console.error("Unexpected error saving application:", error);
     return NextResponse.json(
       { error: "Could not save application. Please try again." },
       { status: 500 }

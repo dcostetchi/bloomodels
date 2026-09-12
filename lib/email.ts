@@ -13,13 +13,13 @@ function getRecipient(): string | null {
 
 export async function sendApplicationEmail(
   application: StoredApplication
-): Promise<void> {
+): Promise<boolean> {
   const resend = getResendClient();
   const to = getRecipient();
 
   // Env vars unset in local/dev — skip silently rather than failing the submission.
   if (!resend || !to) {
-    return;
+    return false;
   }
 
   await resend.emails.send({
@@ -40,16 +40,18 @@ export async function sendApplicationEmail(
       `Submitted: ${application.submittedAt}`,
     ].join("\n"),
   });
+
+  return true;
 }
 
 export async function sendContactEmail(
   values: ContactFormValues
-): Promise<void> {
+): Promise<boolean> {
   const resend = getResendClient();
   const to = getRecipient();
 
   if (!resend || !to) {
-    return;
+    return false;
   }
 
   await resend.emails.send({
@@ -58,4 +60,6 @@ export async function sendContactEmail(
     subject: `New contact message from ${values.name}`,
     text: `Name: ${values.name}\nContact: ${values.contact}\n\n${values.message}`,
   });
+
+  return true;
 }

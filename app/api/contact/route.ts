@@ -29,9 +29,17 @@ export async function POST(request: Request): Promise<NextResponse> {
   }
 
   try {
-    await sendContactEmail(parsed.data);
+    const emailed = await sendContactEmail(parsed.data);
+    if (!emailed) {
+      console.error("Contact message lost: no email configured.");
+      return NextResponse.json(
+        { error: "Could not send message. Please try again." },
+        { status: 500 }
+      );
+    }
     return NextResponse.json({ ok: true }, { status: 200 });
-  } catch {
+  } catch (error) {
+    console.error("Unexpected error sending contact message:", error);
     return NextResponse.json(
       { error: "Could not send message. Please try again." },
       { status: 500 }
