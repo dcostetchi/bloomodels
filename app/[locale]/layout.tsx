@@ -49,7 +49,7 @@ export async function generateMetadata({
     metadataBase: new URL(`https://${domainByLocale[locale as AppLocale]}`),
     title: {
       default: t("title"),
-      template: `%s — ${siteConfig.name}`,
+      template: `%s - ${siteConfig.name}`,
     },
     icons: {
       icon: "/icon.svg",
