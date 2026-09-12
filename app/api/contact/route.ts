@@ -6,7 +6,7 @@ import { isRateLimited } from "@/lib/rate-limit";
 export async function POST(request: Request): Promise<NextResponse> {
   const ip = request.headers.get("x-forwarded-for") ?? "unknown";
 
-  if (isRateLimited(`contact:${ip}`, 5, 10 * 60 * 1000)) {
+  if (isRateLimited(`contact:${ip}`, 15, 10 * 60 * 1000)) {
     return NextResponse.json(
       { error: "Too many requests. Please try again later." },
       { status: 429 }
