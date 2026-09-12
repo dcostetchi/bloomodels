@@ -1,8 +1,8 @@
 {
   "seo": {
     "home": {
-      "title": "Bloom Models — Agentie Boutique de Management pentru Creatori",
-      "description": "Management full-service pentru creatori de continut live. Setup tehnic, cresterea audientei si monetizare — ne ocupam de tot ca tu sa te concentrezi pe creat."
+      "title": "Bloom Models - Agentie Boutique de Management pentru Creatori",
+      "description": "Management full-service pentru creatori de continut live. Setup tehnic, cresterea audientei si monetizare - ne ocupam de tot ca tu sa te concentrezi pe creat."
     },
     "howItWorks": {
       "title": "Cum Functioneaza",
@@ -59,7 +59,7 @@
       "items": [
         {
           "title": "Management Tehnic",
-          "desc": "Setup complet, optimizarea platformei, calitatea stream-ului, unelte si software — toate gestionate de noi."
+          "desc": "Setup complet, optimizarea platformei, calitatea stream-ului, unelte si software - toate gestionate de noi."
         },
         {
           "title": "Cresterea Audientei",
@@ -74,7 +74,7 @@
     "studioShowcase": {
       "eyebrow": "Spatiul",
       "title": "Studiouri Reale. Discretie Reala.",
-      "text": "Fiecare creator administrat lucreaza dintr-un spatiu conceput pentru confort si intimitate — fie in studioul nostru, fie intr-un setup construit acasa la tine."
+      "text": "Fiecare creator administrat lucreaza dintr-un spatiu conceput pentru confort si intimitate - fie in studioul nostru, fie intr-un setup construit acasa la tine."
     },
     "numbers": {
       "items": [
@@ -85,7 +85,7 @@
         },
         {
           "suffix": "%",
-          "label": "remote — lucrezi de oriunde"
+          "label": "remote - lucrezi de oriunde"
         },
         {
           "suffix": " zile",
@@ -101,8 +101,8 @@
       "eyebrow": "Diferenta",
       "title": "Beneficii Pentru Creatori",
       "items": [
-        "Lucrezi de acasa — fara naveta, fara sef",
-        "Program flexibil — tu iti alegi orele",
+        "Lucrezi de acasa - fara naveta, fara sef",
+        "Program flexibil - tu iti alegi orele",
         "Zero cunostinte tehnice necesare",
         "Castiguri in dolari, nu in RON",
         "Identitatea ta este complet protejata",
@@ -139,7 +139,7 @@
     },
     "ctaFinal": {
       "title": "Esti pregatita sa transformi timpul tau in dolari?",
-      "button": "Aplica Acum — Dureaza 2 Minute"
+      "button": "Aplica Acum - Dureaza 2 Minute"
     }
   },
   "howItWorksPage": {
@@ -250,7 +250,7 @@
           },
           {
             "q": "Exista un minim garantat?",
-            "a": "Da — $1,000/luna garantat daca iti completezi orele programate."
+            "a": "Da - $1,000/luna garantat daca iti completezi orele programate."
           },
           {
             "q": "Cand primesc prima plata?",

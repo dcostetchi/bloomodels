@@ -1,8 +1,8 @@
 {
   "seo": {
     "home": {
-      "title": "Bloom Models — Boutique Creator Management Agency",
-      "description": "Full-service management for live content creators. Technical setup, audience growth and monetization — we handle everything so you can focus on creating."
+      "title": "Bloom Models - Boutique Creator Management Agency",
+      "description": "Full-service management for live content creators. Technical setup, audience growth and monetization - we handle everything so you can focus on creating."
     },
     "howItWorks": {
       "title": "How It Works",
@@ -59,7 +59,7 @@
       "items": [
         {
           "title": "Technical Management",
-          "desc": "Full setup, platform optimization, stream quality, tools and software — all handled by us."
+          "desc": "Full setup, platform optimization, stream quality, tools and software - all handled by us."
         },
         {
           "title": "Audience Growth",
@@ -74,7 +74,7 @@
     "studioShowcase": {
       "eyebrow": "The Space",
       "title": "Real Studios. Real Discretion.",
-      "text": "Every managed creator works from a space built for comfort and privacy — whether that's our studio or a setup we build for you at home."
+      "text": "Every managed creator works from a space built for comfort and privacy - whether that's our studio or a setup we build for you at home."
     },
     "numbers": {
       "items": [
@@ -85,7 +85,7 @@
         },
         {
           "suffix": "%",
-          "label": "remote — work from anywhere"
+          "label": "remote - work from anywhere"
         },
         {
           "suffix": " days",
@@ -101,8 +101,8 @@
       "eyebrow": "The Difference",
       "title": "Creator Benefits",
       "items": [
-        "Work from home — no commute, no boss",
-        "Flexible schedule — you choose your hours",
+        "Work from home - no commute, no boss",
+        "Flexible schedule - you choose your hours",
         "Zero technical knowledge required",
         "Earnings in dollars, not RON",
         "Your identity fully protected",
@@ -139,7 +139,7 @@
     },
     "ctaFinal": {
       "title": "Ready to turn your time into dollars?",
-      "button": "Apply Now — Takes 2 Minutes"
+      "button": "Apply Now - Takes 2 Minutes"
     }
   },
   "howItWorksPage": {
@@ -250,7 +250,7 @@
           },
           {
             "q": "Is there a guaranteed minimum?",
-            "a": "Yes — $1,000/month guaranteed if you complete your scheduled hours."
+            "a": "Yes - $1,000/month guaranteed if you complete your scheduled hours."
           },
           {
             "q": "When is my first payment?",
