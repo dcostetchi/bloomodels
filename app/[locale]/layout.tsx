@@ -79,6 +79,7 @@ export default async function LocaleLayout({
     name: siteConfig.name,
     url: siteConfig.url,
     email: siteConfig.email,
+    sameAs: ["https://instagram.com/bloomodelsagency"],
   };
 
   return (

@@ -60,9 +60,8 @@ export function Footer(): React.JSX.Element {
             {t("social")}
           </p>
           <div className="mt-4 flex gap-5 text-sm">
-            {/* [PLACEHOLDER] real social links */}
             <a
-              href="https://instagram.com"
+              href="https://instagram.com/bloomodelsagency"
               target="_blank"
               rel="noreferrer noopener"
               className="text-cream/70 transition-colors hover:text-cream"
