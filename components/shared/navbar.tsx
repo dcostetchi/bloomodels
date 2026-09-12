@@ -38,6 +38,7 @@ export function Navbar(): React.JSX.Element {
   ] as const;
 
   return (
+    <>
     <header
       className={cn(
         "fixed inset-x-0 top-0 z-50 transition-all duration-300",
@@ -89,7 +90,9 @@ export function Navbar(): React.JSX.Element {
         </button>
       </nav>
 
-      {menuOpen && (
+    </header>
+
+    {menuOpen && (
         <div className="fixed inset-0 z-50 flex flex-col bg-cream px-6 py-6 md:hidden">
           <div className="flex items-center justify-between">
             <span className="flex items-center gap-2 font-serif text-2xl italic text-charcoal">
@@ -132,7 +135,7 @@ export function Navbar(): React.JSX.Element {
             </Button>
           </div>
         </div>
-      )}
-    </header>
+    )}
+    </>
   );
 }
