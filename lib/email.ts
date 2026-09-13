@@ -23,7 +23,7 @@ export async function sendApplicationEmail(
   }
 
   const { error } = await resend.emails.send({
-    from: "Applications <onboarding@resend.dev>", // [PLACEHOLDER] verify a sending domain in Resend
+    from: "Bloom Models Applications <apply@bloomodels.ro>",
     to,
     subject: `New application: ${application.firstName} (${application.city})`,
     text: [
@@ -60,7 +60,7 @@ export async function sendContactEmail(
   }
 
   const { error } = await resend.emails.send({
-    from: "Contact form <onboarding@resend.dev>", // [PLACEHOLDER] verify a sending domain in Resend
+    from: "Bloom Models Contact <contact@bloomodels.ro>",
     to,
     subject: `New contact message from ${values.name}`,
     text: `Name: ${values.name}\nContact: ${values.contact}\n\n${values.message}`,
